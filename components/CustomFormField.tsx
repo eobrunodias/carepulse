@@ -14,6 +14,7 @@ import { Control } from "react-hook-form";
 import { Textarea } from "./ui/textarea";
 import { Checkbox } from "./ui/checkbox";
 import PhoneInput from "react-phone-number-input";
+import "react-phone-number-input/style.css";
 import { E164Number } from "libphonenumber-js/core";
 import { SelectContent, SelectValue, SelectTrigger, Select } from "./ui/select";
 import ReactDatePicker from "react-datepicker";
